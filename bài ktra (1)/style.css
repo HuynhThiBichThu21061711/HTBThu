@@ -1,0 +1,132 @@
+
+
+/*bài 1*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0; 
+}
+
+.noi-dung {
+    padding: 20px;
+}
+
+.danh-sach-laptop {
+    list-style: none;
+    padding: 0;
+
+}
+
+.laptop {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.laptop img {
+    width: 100%;
+    height: auto;
+}
+/*bài 2*/
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.thongtin, .lienhe {
+    flex: 1;
+    padding: 10px;
+}
+.thongtin p {
+    color: #696969;
+}
+h1 {
+    color: blue;
+    text-indent: 250px;
+    text-align: left;
+}
+hr {
+    border-color: red;
+    border-top: 5;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.container input{   
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+.container button {
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+    background-color: lightskyblue;
+    color: white;
+    border-color: lightskyblue;
+    cursor: pointer;
+}
+#noidung {
+    height: 100px;
+}
+.lienhe h3{
+    color: rgb(8, 2, 11);
+}
+/*bài 3*/
+
+        .danhgia {
+            margin: 50px auto;
+            width: 80%;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0c6911;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #067a17;
+        }
+        #reviewResult {
+            margin-top: 20px;
+            border-top: 2px solid #ccc;
+            padding-top: 20px;
+        }
+        .danhgia h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            color: rgb(10, 92, 55);
+        }
+   
